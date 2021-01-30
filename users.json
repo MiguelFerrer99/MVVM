@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+        "firstname": "Miguel",
+        "lastname": "Ferrer Fornali",
+        "email": "militardeaire99@gmail.com",
+        "password": "contraseña1"
+	},
+    {
+        "id": 2,
+        "firstname": "Joan",
+        "lastname": "Ferrer Fornali",
+        "email": "joanferrer41@gmail.com",
+        "password": "contraseña2"
+    },
+    {
+        "id": 3,
+        "firstname": "Miguel",
+        "lastname": "Ferrer Ibáñez",
+        "email": "miguelferrerfontanerssl@gmail.com",
+        "password": "contraseña3"
+    },
+    {
+        "id": 4,
+        "firstname": "Amparo",
+        "lastname": "Fornali Albert",
+        "email": "afornalialbert@gmail.com",
+        "password": "contraseña4"
+    }
+]

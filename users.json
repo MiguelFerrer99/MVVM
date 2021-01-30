@@ -1,11 +1,11 @@
 [
-	{
-		"id": 1,
+    {
+	"id": 1,
         "firstname": "Miguel",
         "lastname": "Ferrer Fornali",
         "email": "militardeaire99@gmail.com",
         "password": "contraseña1"
-	},
+    },
     {
         "id": 2,
         "firstname": "Joan",

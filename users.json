@@ -10,21 +10,40 @@
         "id": 2,
         "firstname": "Joan",
         "lastname": "Ferrer Fornali",
-        "email": "joanferrer41@gmail.com",
+        "email": "aaaaaaaaaa@gmail.com",
         "password": "contraseña2"
     },
     {
         "id": 3,
         "firstname": "Miguel",
         "lastname": "Ferrer Ibáñez",
-        "email": "miguelferrerfontanerssl@gmail.com",
+        "email": "ffffffffff@gmail.com",
         "password": "contraseña3"
     },
     {
         "id": 4,
         "firstname": "Amparo",
         "lastname": "Fornali Albert",
-        "email": "afornalialbert@gmail.com",
+        "email": "hhhhhhhhh@gmail.com",
         "password": "contraseña4"
+    },
+        {
+        "id": 5,
+        "firstname": "Ivan",
+        "lastname": "Gregori Bou",
+        "email": "xxxxxxxx@gmail.com",
+        "password": "contraseña5"
+    },    {
+        "id": 6,
+        "firstname": "Jorge",
+        "lastname": "Coello Moncada",
+        "email": "yyyyyyyyyyy@gmail.com",
+        "password": "contraseña6"
+    },    {
+        "id": 7,
+        "firstname": "Enrique",
+        "lastname": "Juan Sempere",
+        "email": "zzzzzzzzzzzzz@gmail.com",
+        "password": "contraseña7"
     }
 ]

@@ -14,7 +14,6 @@ class FetchUsers: ObservableObject {
     
     @Published var users:[User] = []
     let url = "https://raw.githubusercontent.com/MiguelFerrer99/MVVMexample/main/users.json"
-    let url2 = "https://jsonplaceholder.typicode.com/users"
     
     func fetchUsers() {
         
@@ -23,7 +22,7 @@ class FetchUsers: ObservableObject {
         URLSession.shared.dataTask(with: url) { (data, _ ,_) in
             
             let usersDecoder = try! JSONDecoder().decode([User].self, from: data!)
-            
+            print(usersDecoder)
             DispatchQueue.main.async {
                 self.users = usersDecoder
             }

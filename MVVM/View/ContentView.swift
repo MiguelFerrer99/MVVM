@@ -11,29 +11,36 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var users = FetchUsers()
-    @State var showUser = false
+    @ObservedObject var fetchedUsers = FetchUsers()
+    @State private var searchText = ""
+    @State private var showUserView = false
+    @State private var heightView:CGFloat = 0
     
     var body: some View {
-        
         NavigationView {
             ScrollView {
                 VStack {
-                    //Card View de cada usuario
-                    ForEach(self.users.users) { user in
+                    SearchBar(text: self.$searchText)
+                    ForEach(self.fetchedUsers.users.filter {
+                        searchText.isEmpty ? true : $0.firstname.lowercased().prefix(searchText.count).localizedStandardContains(searchText)
+                    }, id: \.self) { user in
                         NavigationLink(
                             destination: UserView(userDetails: user),
-                            isActive: self.$showUser,
+                            isActive: self.$showUserView,
                             label: {
                                 CardView(userDetails: user)
-                            })
+                        })
                     }
                 }
-            }.onAppear {
-                //Fetching users...
-                self.users.fetchUsers()
             }
             .navigationBarTitle("Users")
+        }.onAppear  {
+            self.fetchedUsers.fetchUsers()
+            //When action notification button is pressed...
+            NotificationCenter.default.addObserver(forName: NSNotification.Name("goUserView"), object: nil, queue: .main) { (_) in
+                //codigo para hacer cuando se pulse el boton ir a UserView
+                showUserView.toggle()
+            }
         }
     }
 }

@@ -17,6 +17,7 @@
 		A26DD00625C620DB00F668E5 /* FetchUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DD00525C620DB00F668E5 /* FetchUsers.swift */; };
 		A26DD00E25C626A600F668E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DD00D25C626A600F668E5 /* CardView.swift */; };
 		A26DD01125C637CD00F668E5 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DD01025C637CD00F668E5 /* UserView.swift */; };
+		A2A548B325C7E6A4007BDD58 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A548B225C7E6A4007BDD58 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A26DD00525C620DB00F668E5 /* FetchUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUsers.swift; sourceTree = "<group>"; };
 		A26DD00D25C626A600F668E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A26DD01025C637CD00F668E5 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		A2A548B225C7E6A4007BDD58 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,10 @@
 		A26DD00025C620BB00F668E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A26DD01025C637CD00F668E5 /* UserView.swift */,
 				A26DCFEE25C620A200F668E5 /* ContentView.swift */,
 				A26DD00D25C626A600F668E5 /* CardView.swift */,
-				A26DD01025C637CD00F668E5 /* UserView.swift */,
+				A2A548B225C7E6A4007BDD58 /* SearchBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				A26DCFEB25C620A200F668E5 /* AppDelegate.swift in Sources */,
 				A26DD01125C637CD00F668E5 /* UserView.swift in Sources */,
 				A26DD00625C620DB00F668E5 /* FetchUsers.swift in Sources */,
+				A2A548B325C7E6A4007BDD58 /* SearchBar.swift in Sources */,
 				A26DCFED25C620A200F668E5 /* SceneDelegate.swift in Sources */,
 				A26DCFEF25C620A200F668E5 /* ContentView.swift in Sources */,
 			);

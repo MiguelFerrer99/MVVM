@@ -1,1 +1,1 @@
-This project is a simple example of how to develop an organized project, following the MVVM concept. Futhermore, I consume a JSON from an API to show the users data. I hope you like it :)
+This project is a simple example of how to develop an organized project, following the MVVM concept. Futhermore, I've learned to consume an API (JSON to show the. users. Furthermore, this list of users can be filtered by their firstname with a SearchBar. Finally, I implemented a button to get local notifications, which are customized with some buttons. I hope you like it :)
